@@ -10,7 +10,9 @@ const app = express()
 
 // * listen for requests
 app.listen(PORT, () => {
-  console.log('Your app is listening on port ' + PORT)
+  const url = 'http://localhost:' + PORT
+
+  console.log('Your app is listening on url: ' + url)
 })
 
 // * middlewares
