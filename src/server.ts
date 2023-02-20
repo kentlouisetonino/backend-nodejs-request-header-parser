@@ -2,6 +2,7 @@ require('dotenv').config()
 import cors from 'cors'
 import express from 'express'
 import morgan from 'morgan'
+import HeaderParserRouter from './router/HeaderParserRouter'
 import HomeRouter from './router/HomeRouter'
 
 const PORT = process.env.PORT
@@ -19,3 +20,4 @@ app.use(express.static('public')) // * http://expressjs.com/en/starter/static-fi
 
 // * endpoints
 app.use('/', HomeRouter)
+app.use('/api', HeaderParserRouter)
