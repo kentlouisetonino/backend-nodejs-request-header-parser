@@ -1,0 +1,7 @@
+{
+  "name": "api-request-header-parser-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kent Louise Tonino",
+  "license": "MIT"
+}
