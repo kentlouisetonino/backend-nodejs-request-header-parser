@@ -9,12 +9,12 @@ const PORT = process.env.PORT
 const app = express()
 
 // * listen for requests
-app.listen(PORT, function () {
+app.listen(PORT, () => {
   console.log('Your app is listening on port ' + PORT)
 })
 
 // * middlewares
-app.use(morgan('tiny'))
+app.use(morgan('tiny')) // * logs the request
 app.use(cors({ optionsSuccessStatus: 200 })) // * some legacy browsers choke on 204
 app.use(express.static('public')) // * http://expressjs.com/en/starter/static-files.html
 
