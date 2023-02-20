@@ -12,7 +12,7 @@ const app = express()
 app.listen(PORT, () => {
   const url = 'http://localhost:' + PORT
 
-  console.log('Your app is listening on url: ' + url)
+  console.log('Server is live. Your app is listening on url: ' + url)
 })
 
 // * middlewares
