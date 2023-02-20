@@ -6,7 +6,7 @@ export const HeaderParserController = async (req: Request, res: Response) => {
   const software = req.headers['user-agent']
 
   res.json({
-    ipaddress: ipAddress,
+    ipaddress: ipAddress ?? undefined,
     language: language,
     software: software,
   })
