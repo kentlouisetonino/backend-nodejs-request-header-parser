@@ -32,4 +32,4 @@ URL: http://localhost:12000/api/whoami
 <br />
 
 ## Recording
-[Screencast from Monday, 20 February, 2023 08:20:36 PM PST.webm](https://user-images.githubusercontent.com/69438999/220105904-61e7c4bf-a8c6-472e-b7e2-8d56cea4e9cc.webm)
+[Screencast from Monday, 20 February, 2023 09:02:16 PM PST.webm](https://user-images.githubusercontent.com/69438999/220116480-52d5a660-3686-443d-a85d-d38031421627.webm)
