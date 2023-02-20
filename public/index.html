@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>API Request Header Parser Microservice | Kent Lousie Tonino</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="logo.ico" type="image/png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="text-center py-10">
+      <h1
+        class="text-3xl font-bold text-green-600 underline decoration-slate-500 decoration-1 underline-offset-8"
+      >
+        API Request Header Parser Microservice
+      </h1>
+    </div>
+
+    <div class="text-center space-y-16 py-24">
+      <div>
+        <h2 class="text-slate-400 font-mono uppercase font-normal">
+          Example Usage
+        </h2>
+        <ul>
+          <li>
+            <a
+              class="hover:underline hover:underline-offset-8 font-normal italic font-thin tracking-wide"
+              href="api/2015-12-25"
+              >[project url]/api/2015-12-25</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:underline hover:underline-offset-8 font-normal italic font-thin tracking-wide"
+              href="api/1451001600000"
+              >[project url]/api/1451001600000</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-slate-400 font-mono uppercase font-normal">
+          Example Output
+        </h2>
+        <p>
+          <code
+            >{"unix": 1451001600000, "utc": "Fri, 25 Dec 2015 00:00:00
+            GMT"}</code
+          >
+        </p>
+      </div>
+    </div>
+
+    <footer class="p-4 fixed h-20 bottom-0 w-full">
+      <span
+        class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
+      >
+        Developed by
+        <a
+          href="https://github.com/kentlouisetonino"
+          class="hover:underline hover:underline-offset-8 font-bold"
+          target="_blank"
+          >Kent Louise Tonino</a
+        >
+      </span>
+    </footer>
+  </body>
+</html>
