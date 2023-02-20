@@ -26,6 +26,7 @@ npm run dev
 > - Testing
 
 ```bash
+Method: GET
 URL: http://localhost:12000/api/whoami
 ```
 
