@@ -1,6 +1,6 @@
 ## Description
 
-> A simple server-side application that parses the request header information. This is my final solution of the FreeCodeCamp Request Header Parser Microservice challenge. Feel free to clone and tinker.
+> A server-side application that parses the request header information. This is my final solution of the FreeCodeCamp Request Header Parser Microservice challenge. Feel free to clone and tinker.
 
 > Reference:
 >
